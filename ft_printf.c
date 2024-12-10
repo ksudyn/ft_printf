@@ -66,7 +66,6 @@ int	ft_printf(char	const *s, ...)
 	}
 	return (va_end(arg), count);
 }
-/*unsigned#include <stdio.h>
 
 int main() 
 {
@@ -106,4 +105,4 @@ int main()
     ft_printf("Null String: %s\n", null_str);
 
     return 0;
-}*/
+}
